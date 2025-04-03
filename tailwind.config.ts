@@ -11,17 +11,17 @@ const config: Config = {
   theme: {
     //override default theme
     colors: {
-      gray: {
-        "50": "#191c1f",   // Lightest in your original
-        "100": "#111417",  
-        "200": "#0e1114",  
-        "300": "#0a0d10",  
-        "400": "#070a0d",  
-        "500": "#04070a",  
-        "600": "#010407",  
-        "700": "#000104",  
-        "800": "#000000",  // Pure black
-        "900": "#000000"   // Pure black (duplicate)
+      gray:{
+        "50":  "#f5f6f7",  // Light gray for contrast
+        "100": "#dcdfe3",  
+        "200": "#bfc4ca",  
+        "300": "#8f959d",  
+        "400": "#606770",  
+        "500": "#3a3f44",  
+        "600": "#25292d",  
+        "700": "#191c1f",  
+        "800": "#0d1012",  
+        "900": "#000000"   // Pure black
       },
     // coral
     primary: {
