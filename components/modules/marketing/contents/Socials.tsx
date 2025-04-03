@@ -25,7 +25,7 @@ export default function Socials(){
                     <Image src="/socials/meta.png" alt="Meta" className="rounded-full opacity-80" width={24} height={24} />
                 </Link>
                 <Link href="" target="_blank">
-                    <Image src="/socials/linkedIn.png" alt="Linkedin" className="rounded-full opacity-80" width={24} height={24} />
+                    <Image src="/socials/LinkedIn.png" alt="Linkedin" className="rounded-full opacity-80" width={24} height={24} />
                 </Link>
             </div>
         </div>
