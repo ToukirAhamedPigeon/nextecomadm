@@ -1,8 +1,8 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
-import { DeviceTablet, Share, ShareNetwork, Truck, Wallet } from '@phosphor-icons/react';
-import { ShareIcon, TabletSmartphoneIcon } from 'lucide-react';
+import { ShareNetwork, Truck, Wallet } from '@phosphor-icons/react';
+import {TabletSmartphoneIcon } from 'lucide-react';
 import React from 'react';
 
 export default function PageButtons(){
