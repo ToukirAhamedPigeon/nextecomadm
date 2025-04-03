@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: black;
-}
-
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -34,7 +28,7 @@ body {
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
-    --radius: 0.5rem;
+    --radius: 0.5rem
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -60,17 +54,25 @@ body {
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    --chart-5: 340 75% 55%
   }
 }
 
-
-
 @layer base {
-  * {
-    @apply border-border;
+  h1 {
+    @apply text-heading1 first-letter:capitalize;
   }
-  body {
-    @apply bg-background text-foreground;
+  h2 {
+    @apply text-heading2 first-letter:capitalize;
   }
+  h3 {
+    @apply text-heading3 first-letter:capitalize;
+  }
+  h4 {
+    @apply text-heading4 first-letter:capitalize;
+  }
+  h5 {
+    @apply text-heading5 first-letter:capitalize;
+  }
+  
 }
